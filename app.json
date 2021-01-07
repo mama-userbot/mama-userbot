@@ -28,12 +28,12 @@
       "required": true
     },
     "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .hell Command.",
+      "description": "Set Custom Alive Message When entering .mama Command.",
       "value": "",
       "required": false
     },
     "ALIVE_PIC": {
-      "description": "Put here any telegraph media link for alive pic in .hell command.",
+      "description": "Put here any telegraph media link for alive pic in .mama command.",
       "value": "",
       "required": false
     },
@@ -97,7 +97,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/@HellBoyOP/HellBot#main.py ",
+      "description": "Get this value by running https://repl.it/@mama_bad_op/mama-userbot#main.py ",
       "value": ""
     },
     "HEROKU_API_KEY": {
