@@ -2,7 +2,7 @@ from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 
 print("")
-print("""Welcome To HellBot String Generator By @Kraken_The_BadASS""")
+print("""Welcome To mama-userbot String Generator By @mama_bad_op""")
 print("""Kindly Enter Your Details To Continue ! """)
 
 API_KEY = input("API_KEY: ")
@@ -20,12 +20,12 @@ while True:
             )
 
             print(
-                "Thanks for Choosing HellBot Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
+                "Thanks for Choosing mama-userbot Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
             )
     except:
         print("")
         print(
-            "Wrong phone number \n make sure its with correct country code. Example : +919961998999 ! Kindly Retry"
+            "Wrong phone number \n make sure its with correct country code (international format). Example : +919966778833 ! Kindly Retry"
         )
         print("")
         continue
