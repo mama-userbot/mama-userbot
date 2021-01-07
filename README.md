@@ -1,4 +1,4 @@
-### ☣️ The Most Powerfull Userbot ☣️
+### 🔥 The Most Powerfull Userbot 🔥
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/mama-userbot/mama-userbot?utm_source=github.com&utm_medium=referral&utm_content=mama-userbot/mama-userbot&utm_campaign=Badge_Grade_Settings)
 [![Python 3.6](https://img.shields.io/badge/Python-3.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -27,17 +27,14 @@ This is the one and only official Mama Userbot made by [@mama_bad_op](https://t.
 <a href="https://t.me/HellBot_Official"><img src="Unknown wight, [07.01.21 17:24]
 https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/mama_userbot_support"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-## Video Tutorial
-<a href="https://youtu.be/M2FQJq_sHp4"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/M2FQJq_sHp4"><img src="https://img.shields.io/youtube/views/M2FQJq_sHp4?style=social">
 
-## ⚡ Set-Up ⚡
+##  🏡 Set-Up 🏡
 
-### ✨ The Easy Way ✨
+### 💠 The Easy Way
 
 <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmama-userbot%2Fmama-userbot&template=https%3A%2F%2Fgithub.com%2Fmama-userbot%2Fmama-userbot" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 
-### ⚔️ The Normal Way ⚔️
+### 💠 The Normal Way 
 
 Simply clone the repository and run the main file:
 ```sh
