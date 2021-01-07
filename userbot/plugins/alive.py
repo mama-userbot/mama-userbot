@@ -5,7 +5,7 @@ from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mama-userbotb  User"
 
 ludosudo = Config.SUDO_USERS
 
@@ -16,25 +16,24 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/80e5200c615cf0cb57aa9.mp4"
-pm_caption = "__**🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
+PM_IMG = "https://telegra.ph/file/b85514e03cbfdf471a0c4.mp4"
+pm_caption = "__**🔥🔥Mama-userbot is alive!!🔥🔥**__\n\n"
 
-pm_caption += (
-    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
-)
+pm_caption += f"✨TELETHON : `1.15.0` \n"
 
-pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n"
+pm_caption += f"✨My Master      : __**{DEFAULTUSER}](tg://user?id={mama-userbot}**__\n"
 
-pm_caption += f"😈Hêllẞø†😈       : __**{hellversion}**__\n"
+pm_caption += f"✨Heroku Database: Everything working normally\n"
 
-pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
+pm_caption += f"✨Sudo           : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+pm_caption += f"✨CHANNEL   : [ᴊᴏɪɴ](https://t.me/mamauserbot)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/kraken_the_badass)\n\n"
+pm_caption += f"✨CREATOR    : [Nub Here](https://t.me/mama_bad_op)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/mama-userbot/mama-userbot) 🔹 [📜License📜](https://github.com/mama-userbot/mama-userbot/blob/master/LICENSE)"
 
+pm_caption += f"✨Check Stats By Doing .stat.
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
 @bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
