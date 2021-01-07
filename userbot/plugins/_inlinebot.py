@@ -73,21 +73,19 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         else:
             result = builder.article(
-                "@HellBot_Official",
-                text="""**Hey! This is [Hêllẞø†.](https://t.me/HellBot_Official) \nYou can know more about me from the links given below 👇**""",
+                "@Mama_userbot_support",
+                text="""**Hey! This is [mama-userbot.](https://t.me/Mama_userbot_support) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/HellBot_Official"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Mamauserbot"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/HellBot_Official_Chat"
+                            "✨ Support ✨", "https://t.me/HellBot_Official_Chat"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/HellBoy-OP/HellBot"),
+                            "✨ REPO ✨", "https://github.com/mama-userbot/mama-userbot"),
                         custom.Button.url
-                    (
-                            "🔰 TUTORIAL 🔰", "https://youtu.be/M2FQJq_sHp4"
                     )
                     ],
                 ],
@@ -115,7 +113,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await event.edit(
-                "⚜️Hêllẞø† Menu Provider Is now Closed⚜️\n\n      © Hêllẞø† ™"
+                "⚜️Mama-Userbot Menu Hepler is now Closed⚜️\n\n      © @mama_userbot_support ™"
             )
           
     @tgbot.on(
@@ -124,7 +122,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © @mama_userbot_support ™",
                 cache_time=0,
                 alert=True,
             )
