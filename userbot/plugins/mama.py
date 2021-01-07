@@ -54,7 +54,7 @@ uptime = get_readable_time((time.time() - StartTime))
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="mama$"))
-@bot.on(sudo_cmd(pattern="hell$", allow_sudo=True))
+@bot.on(sudo_cmd(pattern="mama$", allow_sudo=True))
 async def amireallyalive(alive):
     if alive.fwd_from:
         return
