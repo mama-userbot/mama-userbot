@@ -1,7 +1,7 @@
-FROM HellBoy-OP/HellBot:latest
+FROM mama-userbot/mama-userbot:latest
 
 #clonning repo 
-RUN git clone https://github.com/HellBoy-OP/L/HellBot.git/root/userbot
+RUN git clone https://github.com/mama-userbot/mama-userbot.git/root/userbot
 #working directory 
 WORKDIR /root/userbot
 
