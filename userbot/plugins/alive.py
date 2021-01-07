@@ -33,7 +33,7 @@ pm_caption += f"✨CREATOR    : [Nub Here](https://t.me/mama_bad_op)\n\n"
 
 pm_caption += "    [✨REPO✨](https://github.com/mama-userbot/mama-userbot) 🔹 [📜License📜](https://github.com/mama-userbot/mama-userbot/blob/master/LICENSE)"
 
-pm_caption += f"✨Status     : Check Stats By Doing .stat.
+pm_caption += f"✨Status     : Check Stats By Doing .stat."
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
 @bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
