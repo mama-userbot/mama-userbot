@@ -1,4 +1,4 @@
-"""HellBot Help Command"""
+"""mama-uuserbot Help Command"""
 
 from userbot import *
 from userbot import CMD_HELP
