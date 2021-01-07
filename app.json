@@ -1,7 +1,7 @@
 {
-  "name": "Hêllẞø†",
-  "description": "The best userbot made by @Kraken_The_BadASS. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @HellBot_Official ",
-  "logo": "https://telegra.ph/file/7decf235312af8536e9aa.jpg ",
+  "name": "Mama-userbot",
+  "description": "The best userbot made by @mama_bad_op. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @mama_userbot_support ",
+  "logo": "https://telegra.ph/file/8e5ea902f8f1131795235.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/HellBoy-OP/HellBot/",
-  "website": "https://github.com/HellBoy-OP/HellBot/",
-  "success_url": "https://t.me/HellBot_Official",
+  "repository": "https://github.com/mama-userbot/mama-userbot/",
+  "website": "https://github.com/mama-userbot/mama-userbot/",
+  "success_url": "https://t.me/mama_userbot_support",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -23,9 +23,9 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is Hell User",
+      "description": "Fill your Full name. like mama user ",
       "value": "",
-      "required": false
+      "required": true
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .hell Command.",
@@ -38,12 +38,12 @@
       "required": false
     },
     "BIO_MSG": {
-      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
+      "description": "fill Your Telegram Bio Here Required For Auto Bio.",
       "value": "",
       "required": false
     },
     "PMPERMIT_PIC": {
-      "description": "put here any telegraph media link for custom pmpermit pic.",
+      "description": "fill here any telegraph media link for custom pmpermit pic.",
       "value": "",
       "required": true
     },
@@ -53,12 +53,12 @@
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
-      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "description": "fill an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
       "value": "",
       "required": true
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "description": "Get this value from my.telegram.org ! filling Others Value may result In Account Ban.",
       "value": ""
     },
     "REM_BG_API_KEY": {
@@ -77,7 +77,7 @@
       "required": false
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "description": "Get this value from my.telegram.org! filling Others Value May result In Account Ban.",
       "value": ""
     },
     "PLUGIN_CHANNEL": {
