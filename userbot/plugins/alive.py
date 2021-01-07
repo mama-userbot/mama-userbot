@@ -21,7 +21,7 @@ pm_caption = "__**🔥🔥Mama-userbot is alive!!🔥🔥**__\n\n"
 
 pm_caption += f"✨TELETHON : `1.15.0` \n"
 
-pm_caption += f"✨My Master      : __**{DEFAULTUSER}](tg://user?id={mama-userbot}**__\n"
+pm_caption += f"✨My Master      : __**{DEFAULTUSER}](tg://user?id={kraken}**__\n"
 
 pm_caption += f"✨Heroku Database: Everything working normally\n"
 
