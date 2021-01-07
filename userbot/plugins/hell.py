@@ -53,21 +53,15 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - StartTime))
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="hell$"))
+@bot.on(admin_cmd(outgoing=True, pattern="mama$"))
 @bot.on(sudo_cmd(pattern="hell$", allow_sudo=True))
 async def amireallyalive(alive):
     if alive.fwd_from:
         return
     reply_to_id = await reply_id(alive)
 
-    if HELL_IMG:
-        hell_caption = f"**{CUSTOM_ALIVE_TEXT}**\n"
-        hell_caption += f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈\n"
-        hell_caption += f"__**BOT STATUS**__\n\n"
-        hell_caption += f"**★ Telethon version :** `1.15.0`\n"
-        hell_caption += f"**★ Mama-userbot :**`{mamaversion}`\n"
-        hell_caption += f"**★ Uptime :** `{uptime}\n`"
-        hell_caption += f"**★ Boss:** {mention}\n"
+    if mama-userbot_IMG:
+        mama-userbot_caption = f"**{CUSTOM_ALIVE_TEXT}**\n"
         await alive.client.send_file(
             alive.chat_id, HELL_IMG, caption=hell_caption, reply_to=reply_to_id
         )
@@ -76,10 +70,5 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-            f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ \n"
-            f"__**BOT STATUS**__\n\n"
-            f"**★ Telethon Version :** `1.15.0`\n"
-            f"**★ Mama-userbot:** `{mamaversion}`\n"
-            f"**★ Uptime :** `{uptime}\n`"
-            f"**★ Boss:** {mention}\n",
+          
         )
